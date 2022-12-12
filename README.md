@@ -2,7 +2,7 @@
     
 ## Description  
 
-This application allows the user to quickly and easily create a README file by using a command-line application. This allows the project creator to devote more time to working on the project. 
+This application allows a user to create a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). This allows the project creator to devote more time to working on the project. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -22,13 +22,14 @@ To generate your own README.md file,
     
 ## Usage
     
-- Open your code editor and run "node index.js" in your terminal.
-- Enter the information requested by the generator.
-- Sit back and relax.
+- In Visual Studio, right click index.js >  Open in integrated terminal 
+- Type "node index.js" in your terminal and hit enter
+- Answer prompts provided by the generator
+
 
 ## Preview
 
-[Demonstration]()
+[Demon](./demo.webm)
 ## Contributions
 Unapplicable
 

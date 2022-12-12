@@ -9,18 +9,18 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: "What is your project's name?",
+        message: "What is the title of your project?",
       },
       {
         type: 'input',
         name: 'description',
-        message: 'Please write a short description of your project',
+        message: 'Enter a short description of the project.',
       },
       {
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+        choices: ['APACHE2.0','BSD3','GPL3.0','MIT','None'],
       },
     {
         type: 'input',
@@ -31,19 +31,6 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
-      },
-    
-      {
-        type: 'input',
-        name: 'installation',
-        message: 'What command should be run to install dependencies?',
-        default: 'npm i',
-      },
-      {
-        type: 'input',
-        name: 'test',
-        message: 'What command should be run to run tests?',
-        default: 'npm test',
       },
       {
         type: 'input',
